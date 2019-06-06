@@ -19,11 +19,18 @@ I use scanner.py script to scan a picture of the paper
 I use capture_pic.py script to take a picture of the picture using laptop camera
 I use optical_character_reader.py script to read texts from scanned image.
 
+#To Run it#
+1. use python scanner.py --image=<your-image-name" 
+2. click <y> if you passed the image name argument
+  or <n> if you want to take a picture and press enter
+3. The script will run the image through pre-processing, temporarely saving the resulted image
+  and convert the characters into text which is written into a text file which should be located
+  in the current directory saved as ocr_result.txt
+  
 I used arrparser to use cmd terminal as an image uploader.
-use 'y' to make sure you passed image argument (pass it as -i/--image=image_name.extension
+use 'y' to make sure you passed image argument (pass it as -i/--image=image_name.extension)
 use 'n' if you want to take a picture using your laptop camera
 
-The resulted read text is stored in a text file result.txt
 make sure the image is exactly a paper image with four sides and good resolution
 
 credit goes to pyimagesearch for the open resources

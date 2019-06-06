@@ -19,7 +19,7 @@ I use scanner.py script to scan a picture of the paper
 I use capture_pic.py script to take a picture of the picture using laptop camera
 I use optical_character_reader.py script to read texts from scanned image.
 
-#To Run it#
+#To Run it
 1. use python scanner.py --image=<your-image-name" 
 2. click <y> if you passed the image name argument
   or <n> if you want to take a picture and press enter

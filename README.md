@@ -31,6 +31,8 @@ I used arrparser to use cmd terminal as an image uploader.
 use 'y' to make sure you passed image argument (pass it as -i/--image=image_name.extension)
 use 'n' if you want to take a picture using your laptop camera
 
+* The dependencies are listed in requirements.txt file
+
 make sure the image is exactly a paper image with four sides and good resolution
 
 credit goes to pyimagesearch for the open resources

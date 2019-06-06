@@ -1,0 +1,7 @@
+skimage/scikit-image
+pytesseract
+pyimagesearch.transform
+numpy
+argparse
+cv2
+os

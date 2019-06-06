@@ -1,4 +1,5 @@
-_pycache_
+__pycache__/
 receipt.jpg
 capured_img_0.png
 page.jpg
+ocr_result.txt
